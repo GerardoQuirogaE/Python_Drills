@@ -1,4 +1,8 @@
 # The $1,000 Commit Challenge
+**Day**: <ins>2 / 365</ins> |
+**Streak**: 🔥 <ins>Active</ins> |
+**Last Commit**: <ins>02/12/2026</ins>
+
 
 ## 💰 Win $100 If I Fail
 
@@ -6,13 +10,18 @@ I am committing to **at least one meaningful code commit every single day for 36
 
 If I miss even **one day**, and you catch it the very next day **you win $100.**
 
+<br>
+
 There are **10 total seats available.**  
+
 That’s **$1,000 on the line.**
+
+[![Seats Remaining](https://img.shields.io/badge/Seats_Remaining-9-red)](#-current-participants)
 
 ---
 
 ### Minimum Requirement
-- Know how to use Github
+- Know how to use GitHub
 - Know how to interpret python
 
 **Or at least be willing to learn!**
@@ -21,7 +30,7 @@ Resources:
 
 <img width="40" height="40" alt="github_logo" src="https://github.com/user-attachments/assets/593aecb3-9e82-48a3-83c3-c6c2c27cb25e" />
 
-**Learn Github**: https://www.youtube.com/watch?v=a9u2yZvsqHA
+**Learn GitHub**: https://www.youtube.com/watch?v=a9u2yZvsqHA
  
 **AND**
 
@@ -35,12 +44,12 @@ Resources:
 
 **I must make one `real` commit every single day**
 
-This means that the code has to be meaningfull and instructive.
+This means that the code has to be meaningful and instructive.
 - No empty commits
 - No placeholder code
 - No fake activity
 
-My final goal is to improve my python and github skills at the end of the day.
+My final goal is to improve my python and GitHub skills at the end of the day.
 
 ---
 
@@ -73,11 +82,13 @@ If I commit garbage or meaningless changes, *you can call it out **and claim you
 
 *Every so often, I will push a script that outputs something like:*
 
+```
 🎉 CASH BONUS — $30
 
 🎉 CASH BONUS — $50
 
 🎉 DOUBLE REWARD DAY
+```
 
 
 But here’s the twist:
@@ -132,3 +143,54 @@ I get:
 - No excuses  
 
 Let’s see if I survive the year.
+
+---
+
+# Cloning Code & Recommendations
+### 1. Normal Cloning
+Use:
+
+`git clone https://github.com/GerardoQuirogaE/Python_Drills.git`
+
+This **downloads the entire repository**:
+
+- All files
+
+- All folders
+
+- The full commit history
+
+### 2. To reduce data transfer (sparse checkout):
+
+_1. Lightweight clone with sparse checkout enabled_
+
+`git clone --depth 1 --filter=blob:none --sparse https://github.com/GerardoQuirogaE/Python_Drills.git`
+
+_2. Enter the repo folder_
+
+`cd Python_Drills`
+
+_3. Checkout a whole folder (e.g., "Feb 12 Exercises")_
+
+`git sparse-checkout set "Feb 12 Exercises"`
+
+- This downloads only the files in the folder, leaving the rest of the repo untouched.
+
+- You can repeat this command to add more folders later.
+
+- After the initial clone, you can add or remove folders/files without recloning;**the initial clone is still required**.
+
+✅ This avoids downloading the full repository and is much cleaner for large repos.
+
+  ### 3. Restoring the repo
+If you later run:
+
+`git sparse-checkout disable`
+
+- Git disables sparse checkout mode.
+
+- Your working directory is now **populated with all files in the repository**.
+
+- Effectively, it “restores” the repo to a normal, full clone.
+
+
