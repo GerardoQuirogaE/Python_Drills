@@ -16,7 +16,7 @@ There are **10 total seats available.**
 
 That’s **$1,000 on the line.**
 
-[![Seats Remaining](https://img.shields.io/badge/Seats_Remaining-9-red)](#-current-participants)
+[![Seats Remaining](https://img.shields.io/badge/Seats_Remaining-8-red)](#-current-participants)
 
 ---
 
@@ -105,7 +105,7 @@ the more bonus drops I will do.
 | Seat | Shortened Name | Status |
 |------|------|--------|
 | 1 | **Imr, Mal** | 💎 Taken |
-| 2 | Available | 🟢 Open |
+| 2 | **Ale,Lia** | 💎 Taken |
 | 3 | Available | 🟢 Open |
 | 4 | Available | 🟢 Open |
 | 5 | Available | 🟢 Open |
@@ -115,7 +115,7 @@ the more bonus drops I will do.
 | 9 | Available | 🟢 Open |
 | 10 | Available | 🟢 Open |
 
-Only 9 spots left.  
+Only 8 spots left.  
 First come, first served.
 
 ---
