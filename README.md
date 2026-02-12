@@ -1,0 +1,134 @@
+# The $1,000 Commit Challenge
+
+## 💰 Win $100 If I Fail
+
+I am committing to **at least one meaningful code commit every single day for 365 days** in this repository.
+
+If I miss even **one day**, and you catch it the very next day **you win $100.**
+
+There are **10 total seats available.**  
+That’s **$1,000 on the line.**
+
+---
+
+### Minimum Requirement
+- Know how to use Github
+- Know how to interpret python
+
+**Or at least be willing to learn!**
+
+Resources: 
+
+<img width="40" height="40" alt="github_logo" src="https://github.com/user-attachments/assets/593aecb3-9e82-48a3-83c3-c6c2c27cb25e" />
+
+**Learn Github**: https://www.youtube.com/watch?v=a9u2yZvsqHA
+ 
+**AND**
+
+<img width="40" height="40" alt="python_logo" src="https://github.com/user-attachments/assets/c129b3be-d78a-41dc-bbb6-cb5188a090c5" />
+
+**Learn Python**: https://www.youtube.com/watch?v=D2cwvpJSBX4
+
+---
+
+## 📜 The Rules
+
+**I must make one `real` commit every single day**
+
+This means that the code has to be meaningfull and instructive.
+- No empty commits
+- No placeholder code
+- No fake activity
+
+My final goal is to improve my python and github skills at the end of the day.
+
+---
+
+## How to Claim $100
+
+You win if:
+
+1. I fail to commit on any given day
+2. You call me out **the very next day (no late claims)**
+3. OR you prove that the commit was trash / not up to challenge standards
+
+DM me and → **$100 cash paid to you.**
+
+---
+
+## Highly Encouraged
+
+Participants are strongly encouraged to:
+
+- ⭐ Star the repo  
+- 🍴 Fork it  
+- 📥 `git clone` it  
+- 🔎 Review commits carefully  
+
+If I commit garbage or meaningless changes, *you can call it out **and claim your $100.***
+
+---
+
+## 🎁 Random Cash Bonuses
+
+*Every so often, I will push a script that outputs something like:*
+
+🎉 CASH BONUS — $30
+
+🎉 CASH BONUS — $50
+
+🎉 DOUBLE REWARD DAY
+
+
+But here’s the twist:
+
+You’ll only discover it if you **`git clone`** and inspect the repository.
+
+The more engagement this repo gets (stars, forks, clones, pull requests),  
+the more bonus drops I will do.
+
+---
+
+## 👥 Current Participants
+
+| Seat | Shortened Name | Status |
+|------|------|--------|
+| 1 | **Imr, Mal** | 💎 Taken |
+| 2 | Available | 🟢 Open |
+| 3 | Available | 🟢 Open |
+| 4 | Available | 🟢 Open |
+| 5 | Available | 🟢 Open |
+| 6 | Available | 🟢 Open |
+| 7 | Available | 🟢 Open |
+| 8 | Available | 🟢 Open |
+| 9 | Available | 🟢 Open |
+| 10 | Available | 🟢 Open |
+
+Only 9 spots left.  
+First come, first served.
+
+---
+
+## 📬 Contact
+
+If you want to join:
+
+- DM me directly
+- Payment details will be provided individually via DM
+
+---
+
+## 🔥 Are You In?
+
+You get:
+- A chance at free money  
+- A reason to learn GitHub  
+- Access to bonus drops  
+- Front-row seat to a 365-day grind  
+
+I get:
+- Pressure  
+- Discipline  
+- No excuses  
+
+Let’s see if I survive the year.
