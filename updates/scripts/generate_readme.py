@@ -67,7 +67,7 @@ def generate_top_10_table(top_10):
     table += "|------|---------|-------|--------|\n"
 
     for rank, p in enumerate(top_10, start=4):
-        name = f"{p.first_name} {p.last_name}"+ "&nbsp;"*40
+        name = f"{p.first_name} {p.last_name}"+ "&nbsp;"*125
         table += f"| #{rank} | {name} | {p.good_calls} | {p.missed_calls} |\n"
 
     table += "\n"
