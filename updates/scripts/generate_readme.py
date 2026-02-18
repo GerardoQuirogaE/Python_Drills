@@ -57,14 +57,30 @@ def generate_promotion_zone(top_3):
             f"- **Name:** {p.first_name[:3]} {p.last_name[:3]}\n"
             f"- 💰 Pot: ${p.pot}\n"
             f"- 📞 Calls: {p.calls}\n"
-            f"- ❌ Missed: {p.missed}\n"
-            f"- 🚫 Wrong Calls: {p.wrong_calls}\n\n"
+            f"- ❌ Missed Calls: {p.missed}\n"
+            f"- 🚫 Rejected Calls: {p.rejected_calls}\n\n"
         )
 
     return zone
 
+def generate_top_10_table(top_10):
+    table = "## 🏆 Top 10 Leaderboard\n\n"
+    table += "| Rank | Name | Pot ($) | Calls | rejected_calls | Wrong Calls |\n"
+    table += "|------|------|---------|-------|--------|------------|\n"
+
+    for rank, p in enumerate(top_10, start=1):
+        name = f"{p.first_name} {p.last_name}"
+        table += f"| {rank} | {name} | {p.pot} | {p.calls} | {p.rejected_calls} | {p.wrong_calls} |\n"
+
+    table += "\n"
+    return table
+
 promotion_md = generate_promotion_zone(top_3)
 content = content.replace("{{PROMOTION_ZONE}}", promotion_md)
+
+top_10_table_md = generate_top_10_table(top_10)
+content = content.replace("{{TOP_10_LEADERBOARD}}", top_10_table_md)
+
 
 with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
     f.write(content)

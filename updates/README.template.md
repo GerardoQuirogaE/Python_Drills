@@ -12,7 +12,9 @@
   </div>
 
 
+{{PROMOTION_ZONE}}
 
+{{TOP_10_LEADERBOARD}}
 
 ## 💰 Win $100 If I Fail
 
