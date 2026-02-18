@@ -21,12 +21,12 @@
 <div style="display: flex; gap: 20px; align-items: flex-start;">
 
   <!-- Left column: Top 10 leaderboard (50%) -->
-  <div style="flex: 1;text-align: center;">
+  <div style="flex: 1;text-align: center; width: 50%">
     {{TOP_10_LEADERBOARD}}
   </div>
 
   <!-- Right column: Latest update (50%) -->
-  <div style="flex: 1;text-align: center;">
+  <div style="flex: 1;text-align: center; width: 50%">
     {{LATEST_UPDATE}}
   </div>
 

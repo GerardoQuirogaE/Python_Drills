@@ -55,7 +55,7 @@ def generate_promotion_zone(top_3):
     zone += "|------|------|---------|-------|--------|------------|\n"
 
     for rank, p in enumerate(top_3, start=1):
-        name = f"{p.first_name} {p.last_name}"+ "&nbsp;"*60
+        name = f"{p.first_name} {p.last_name}"+ "&nbsp;"*40
         zone += f"| #{rank} | {name} | ${p.cash_collected} | {p.good_calls} | {p.missed_calls} | {p.rejected_calls} |\n"
 
     zone += "\n"
