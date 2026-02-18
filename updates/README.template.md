@@ -12,9 +12,26 @@
   </div>
 
 
-{{PROMOTION_ZONE}}
+<!-- Full-width promotion zone -->
+<div style="text-align: center; width: 100%;">
+  {{PROMOTION_ZONE}}
+</div>
 
-{{TOP_10_LEADERBOARD}}
+<!-- Two-column layout -->
+<div style="display: flex; gap: 20px; align-items: flex-start;">
+
+  <!-- Left column: Top 10 leaderboard (50%) -->
+  <div style="flex: 1;text-align: center;">
+    {{TOP_10_LEADERBOARD}}
+  </div>
+
+  <!-- Right column: Latest update (50%) -->
+  <div style="flex: 1;text-align: center;">
+    {{LATEST_UPDATE}}
+  </div>
+
+</div>
+
 
 ## 💰 Win $100 If I Fail
 

@@ -45,32 +45,30 @@ manager = LeaderboardManager(str(ROOT_DIR / "Data" / "Participants" / "participa
 manager.load_data()
 manager.sort_leaderboard()
 
-top_10 = manager.get_top_n(10)
+top_10 = manager.get_top_n_leaderboard(10)
 top_3 = top_10[:3]
+top_10 = top_10[3:]
 
-def generate_promotion_zone(top_3):
-    zone = "## 🚀 Promotion Zone\n\n"
+def generate_promotion_zone(top_3):     
+    zone = "\n## 💎 Top 3 Players\n\n"
+    zone += "| Rank | Name | Total Cash ($) | Good Calls | Missed Calls | Bad Calls |\n"
+    zone += "|------|------|---------|-------|--------|------------|\n"
 
-    for i, p in enumerate(top_3, start=1):
-        zone += (
-            f"### 🥇 Rank {i}\n"
-            f"- **Name:** {p.first_name[:3]} {p.last_name[:3]}\n"
-            f"- 💰 Pot: ${p.pot}\n"
-            f"- 📞 Calls: {p.calls}\n"
-            f"- ❌ Missed Calls: {p.missed}\n"
-            f"- 🚫 Rejected Calls: {p.rejected_calls}\n\n"
-        )
+    for rank, p in enumerate(top_3, start=1):
+        name = f"{p.first_name} {p.last_name}"+ "&nbsp;"*60
+        zone += f"| #{rank} | {name} | ${p.cash_collected} | {p.good_calls} | {p.missed_calls} | {p.rejected_calls} |\n"
 
+    zone += "\n"
     return zone
 
 def generate_top_10_table(top_10):
-    table = "## 🏆 Top 10 Leaderboard\n\n"
-    table += "| Rank | Name | Pot ($) | Calls | rejected_calls | Wrong Calls |\n"
-    table += "|------|------|---------|-------|--------|------------|\n"
+    table = "\n## ⭐ Leaderboard\n\n"
+    table += "| Rank | Name | Good Calls | Missed Calls |\n"
+    table += "|------|---------|-------|--------|\n"
 
-    for rank, p in enumerate(top_10, start=1):
-        name = f"{p.first_name} {p.last_name}"
-        table += f"| {rank} | {name} | {p.pot} | {p.calls} | {p.rejected_calls} | {p.wrong_calls} |\n"
+    for rank, p in enumerate(top_10, start=4):
+        name = f"{p.first_name} {p.last_name}"+ "&nbsp;"*40
+        table += f"| #{rank} | {name} | {p.good_calls} | {p.missed_calls} |\n"
 
     table += "\n"
     return table
@@ -80,6 +78,17 @@ content = content.replace("{{PROMOTION_ZONE}}", promotion_md)
 
 top_10_table_md = generate_top_10_table(top_10)
 content = content.replace("{{TOP_10_LEADERBOARD}}", top_10_table_md)
+
+update_file_name = f"update_{today.strftime('%b_%d')}.md"  # e.g., update_Feb_15.md
+update_path = UPDATES_DIR / update_file_name
+
+if update_path.exists():
+    with open(update_path, "r", encoding="utf-8") as f:
+        latest_update_md = f.read()
+else:
+    latest_update_md = "_No updates yet._"
+
+content = content.replace("{{LATEST_UPDATE}}", latest_update_md)
 
 
 with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
