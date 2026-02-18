@@ -106,3 +106,6 @@ class LeaderboardManager:
         print("\n PARTICIPANT'S LEADERBOARD\n")
         for rank, participant in enumerate(self.participants, start=1):
             print(f"{rank}. {participant}")
+
+    def get_top_n(self, n=10):
+        return self.participants[:n]

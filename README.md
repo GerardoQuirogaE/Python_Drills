@@ -1,8 +1,30 @@
 # The $1,000 Commit Challenge
-**Day**: <ins>2 / 365</ins> |
-**Streak**: 🔥 <ins>Active</ins> |
-**Last Commit**: <ins>02/12/2026</ins>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Day-7%2F365-blue" />
+  <img src="https://img.shields.io/badge/Streak-Active-brightgreen" />
+  <img src="https://img.shields.io/badge/Last_Commit-02/17/2026-orange" />
+</p>
+
+<p align="center">
+  <h1>$1,000 Commit Challenge</h1>
+  <h3>365 Days. No Misses. $100 Penalty.</h3>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Day-2%2F365-blue" />
+  <img src="https://img.shields.io/badge/Streak-Active-orange" />
+  <img src="https://img.shields.io/badge/Last_Commit-02%2F12%2F2026-yellow" />
+</p>
+
+# The $1,000 Commit Challenge
+**Day**: <ins>7 / 365</ins> |
+**Streak**: 🔥 <ins>Active</ins> |
+**Last Commit**: <ins>02/17/2026</ins>
+
+![GitHub last commit](https://img.shields.io/github/last-commit/GerardoQuirogaE/Python_Drills)
+
+![Progress](https://progress-bar.dev/7/?scale=365)
 
 ## 💰 Win $100 If I Fail
 
