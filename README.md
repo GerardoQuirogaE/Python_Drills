@@ -6,14 +6,19 @@
       365 Days. No Misses. $100 Penalty.
 </h3>
   <div align="center">
-    <img align="center" src="https://img.shields.io/badge/Day-8%2F365-blue" />
+    <img align="center" src="https://img.shields.io/badge/Day-9%2F365-blue" />
     <img align="center" src="https://img.shields.io/badge/Streak-Active-brightgreen" />
-    <img align="center" src="https://img.shields.io/badge/Last_Commit-02/18/2026-orange" />
+    <img align="center" src="https://img.shields.io/badge/Last_Commit-02/19/2026-orange" />
   </div>
 
 
+<!-- Second Section -->
+<!-- <div style="text-align: center;>
+
+</div> -->
+
 <!-- Full-width promotion zone -->
-<div style="text-align: center; width: 100%;">
+<div style="text-align: center; width: 50%;">
   
 ## 💎 Top 3 Players
 
@@ -27,22 +32,22 @@
 </div>
 
 <!-- Two-column layout -->
-<div style="display: flex; gap: 20px; align-items: flex-start;">
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 55%">
 
   <!-- Left column: Top 10 leaderboard (50%) -->
   <div style="flex: 1;text-align: left; width: 25%">
     
 ## ⭐ Leaderboard
 
-| Rank | Name | Good Calls | Missed Calls |
+| Rank | Name | Total Cash ($) | Missed Calls |
 |------|---------|-------|--------|
-| #4 | Sofia Agent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 48 | 3 |
-| #5 | Olivia Agent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 47 | 4 |
-| #6 | Amelia Agent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 52 | 2 |
-| #7 | Ava Agent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 51 | 2 |
-| #8 | Mia Agent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 49 | 3 |
-| #9 | Henry Agent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 44 | 4 |
-| #10 | Michael Agent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 41 | 5 |
+| #4 | Sofia Agent | 1390 | 3 |
+| #5 | Olivia Agent | 1340 | 4 |
+| #6 | Amelia Agent | 1505 | 2 |
+| #7 | Ava Agent | 1575 | 2 |
+| #8 | Mia Agent | 1425 | 3 |
+| #9 | Henry Agent | 1180 | 4 |
+| #10 | Michael Agent | 1105 | 5 |
 
 
   </div>

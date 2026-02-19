@@ -12,13 +12,18 @@
   </div>
 
 
+<!-- Second Section -->
+<!-- <div style="text-align: center;>
+
+</div> -->
+
 <!-- Full-width promotion zone -->
-<div style="text-align: center; width: 100%;">
+<div style="text-align: center; width: 50%;">
   {{PROMOTION_ZONE}}
 </div>
 
 <!-- Two-column layout -->
-<div style="display: flex; gap: 20px; align-items: flex-start;">
+<div style="display: flex; gap: 20px; align-items: flex-start; width: 55%">
 
   <!-- Left column: Top 10 leaderboard (50%) -->
   <div style="flex: 1;text-align: left; width: 25%">

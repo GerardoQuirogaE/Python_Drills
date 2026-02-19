@@ -63,12 +63,12 @@ def generate_promotion_zone(top_3):
 
 def generate_top_10_table(top_10):
     table = "\n## ⭐ Leaderboard\n\n"
-    table += "| Rank | Name | Good Calls | Missed Calls |\n"
+    table += "| Rank | Name | Total Cash ($) | Missed Calls |\n"
     table += "|------|---------|-------|--------|\n"
 
     for rank, p in enumerate(top_10, start=4):
-        name = f"{p.first_name} {p.last_name}"+ "&nbsp;"*40
-        table += f"| #{rank} | {name} | {p.good_calls} | {p.missed_calls} |\n"
+        name = f"{p.first_name} {p.last_name}"
+        table += f"| #{rank} | {name} | {p.cash_collected} | {p.missed_calls} |\n"
 
     table += "\n"
     return table
