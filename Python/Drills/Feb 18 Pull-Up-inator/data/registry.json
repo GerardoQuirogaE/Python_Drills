@@ -1,0 +1,14 @@
+{
+  "motivation": {
+    "type": "text_inline",
+    "content": "You either suffer the pain of discipline or the pain of regret."
+  },
+  "notes": {
+    "type": "text_file",
+    "path": "data/texts/notes.txt"
+  },
+  "periodic_table": {
+    "type": "image",
+    "path": "data/images/periodic-table.png"
+  }
+}
