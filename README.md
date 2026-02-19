@@ -30,7 +30,7 @@
 <div style="display: flex; gap: 20px; align-items: flex-start;">
 
   <!-- Left column: Top 10 leaderboard (50%) -->
-  <div style="flex: 1;text-align: left;">
+  <div style="flex: 1;text-align: left; width: 25%">
     
 ## ⭐ Leaderboard
 
@@ -49,7 +49,16 @@
 
   <!-- Right column: Latest update (50%) -->
   <div style="flex: 1;text-align: center;">
-    _No updates yet._
+    
+# Howdy! Welcome to the repo's Daily Update
+
+
+Commit History
+
+| Time | Commit | Description |
+|----------|----------|----------|
+| Row 1A   | Row 1B   | Row 1C   |
+| Row 2A   | Row 2B   | Row 2C   |
   </div>
 
 </div>

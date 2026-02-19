@@ -21,7 +21,7 @@
 <div style="display: flex; gap: 20px; align-items: flex-start;">
 
   <!-- Left column: Top 10 leaderboard (50%) -->
-  <div style="flex: 1;text-align: left;">
+  <div style="flex: 1;text-align: left; width: 25%">
     {{TOP_10_LEADERBOARD}}
   </div>
 

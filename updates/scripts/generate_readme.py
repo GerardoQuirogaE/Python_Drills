@@ -20,9 +20,9 @@ and we repeat this identification of path for:
     3. Root dir (Where our real readme lives)
 Then we are defining the path to the template and to the README output.
 """
-SCRIPT_DIR = Path(__file__).resolve().parent
-UPDATES_DIR = SCRIPT_DIR.parent
-ROOT_DIR = UPDATES_DIR.parent
+SCRIPT_DIR = Path(__file__).resolve().parent # Python_Drills/updates/scripts/
+UPDATES_DIR = SCRIPT_DIR.parent # Python_Drills/updates/
+ROOT_DIR = UPDATES_DIR.parent # Python_Drills/
 
 TEMPLATE_PATH = UPDATES_DIR / "README.template.md"
 OUTPUT_PATH = ROOT_DIR / "README.md"
