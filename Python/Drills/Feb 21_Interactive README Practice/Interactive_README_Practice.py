@@ -8,6 +8,8 @@ would be displayed on the template.
 from datetime import datetime
 from pathlib import Path
 import random
+import requests
+import yfinance as yf
 
 """
 This is path handling.
@@ -42,7 +44,15 @@ today_str = today.strftime("%m/%d/%Y")
 ## Random Image Generator
 
 random_number = random.randint(1,5)
-random_image = f"Image_#{random_number}.jpg"
+random_image = f"images/Image_{random_number}.jpg"
+
+## Acapulco's Temp
+Acapulco_weather = requests.get("https://wttr.in/Acapulco?format=3").text
+
+## Micsosoft's Stock Price
+msft = yf.Ticker("MSFT")
+MSFT_price = msft.history(period="1d")["Close"][-1]
+MSFT_output = f"${MSFT_price:.2f}"
 
 """
 The following section utilizes the variable `content`
@@ -57,6 +67,8 @@ content = content.replace("{{DAY}}", str(day_number))
 content = content.replace("{{DATE}}", today_str)
 content = content.replace("{{STREAK}}", "Active")
 content = content.replace("{{RANDOM_IMG}}", random_image)
+content = content.replace("{{ACAPULCO_WEATHER}}", Acapulco_weather)
+content = content.replace("{{MSFT_PRICE}}", MSFT_output)
 
 """
 The following section will open our 
@@ -71,4 +83,4 @@ with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
 
 """Lastly, give feedback to signify success
 """
-print(f"Test_me_README Updated to Day {day_number} successfuly.")
+print(f"Test_me_README Updated successfuly.")
