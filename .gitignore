@@ -1,2 +1,12 @@
+courses/
+venv/
 __pycache__/
+Data/syntheses/
+Data/Project_Documentation/
+Python/code_interpreter/
+Python/Drill_Ideas/
 *.pyc
+*Python_Drills.code-workspace
+*commit_changes.txt
+*commit_history.txt
+*Python/Drills/popup.html
