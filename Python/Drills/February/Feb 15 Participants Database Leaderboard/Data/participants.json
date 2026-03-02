@@ -1,0 +1,27 @@
+[
+  {
+    "first_name": "Alice",
+    "last_name": "Smith",
+    "money_earned": 10,
+    "successful_claims": 2,
+    "rejected_claims": 0,
+    "join_date": "2026-02-10"
+  },
+  {
+    "first_name": "Bob",
+    "last_name": "Jones",
+    "money_earned": 10,
+    "successful_claims": 1,
+    "rejected_claims": 0,
+    "join_date": "2026-02-12"
+  },
+  {
+    "first_name": "Charlie",
+    "last_name": "Brown",
+    "money_earned": 20,
+    "successful_claims": 2,
+    "rejected_claims": 1,
+    "join_date": "2026-02-11"
+  }
+]
+
