@@ -5,6 +5,9 @@ Data/syntheses/
 Data/Project_Documentation/
 Python/code_interpreter/
 Python/Drill_Ideas/
+Python/Drills/March/Mar_Pomodoro_Timer_v2
+Python/Drills/March/Mar_Repository_Progress_Visualizator
+python/Drills/March/Mar_Email_Manager_v1
 *.pyc
 *Python_Drills.code-workspace
 *commit_changes.txt

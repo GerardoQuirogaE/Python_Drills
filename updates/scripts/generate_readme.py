@@ -3,7 +3,7 @@ from pathlib import Path
 import sys
 
 ROOT = Path(__file__).resolve().parents[2]
-sys.path.append(str(ROOT / "Python" / "Drills" / "Feb 15 Participants Database Leaderboard"))
+sys.path.append(str(ROOT / "Python" / "Drills" / "February" / "Feb_15_Participants_Database_Leaderboard"))
 
 from leaderboard_manager import LeaderboardManager
 

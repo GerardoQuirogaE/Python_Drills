@@ -6,9 +6,9 @@
       365 Days. No Misses. $100 Penalty.
 </h3>
   <div align="center">
-    <img align="center" src="https://img.shields.io/badge/Day-10%2F365-blue" />
+    <img align="center" src="https://img.shields.io/badge/Day-20%2F365-blue" />
     <img align="center" src="https://img.shields.io/badge/Streak-Active-brightgreen" />
-    <img align="center" src="https://img.shields.io/badge/Last_Commit-02/20/2026-orange" />
+    <img align="center" src="https://img.shields.io/badge/Last_Commit-03/02/2026-orange" />
   </div>
 
 
