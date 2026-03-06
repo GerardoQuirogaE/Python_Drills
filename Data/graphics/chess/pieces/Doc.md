@@ -1,15 +1,16 @@
 
 
-I will write the pice name as:
+The images of the pieces are labels as following:
+
 1. First Letter: 
     |Letter|Meaning|
     |------|-------|
-    |p|pawn|
+    |P|Pawn|
     |N|Knight|
     |B|Bishop|
     |R|Rook|
     |Q|Queen|
-    |K|King|
+    |K|King|git
 
 2. Second Letter: either white *`w`* or as black *`b`*
 
